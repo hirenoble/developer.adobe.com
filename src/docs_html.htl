@@ -11,7 +11,7 @@
 * governing permissions and limitations under the License.
 */
 -->
-<link rel="stylesheet" href="/docs.css" />
+<link rel="stylesheet" href="/pages/docs.css" />
 <script src="https://momentjs.com/downloads/moment.min.js"></script>
 
 <header>

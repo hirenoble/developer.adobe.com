@@ -23,9 +23,9 @@
     <link rel="stylesheet" href="/spectrum/spectrum-dark.css" />
     <link rel="stylesheet" href="/spectrum/spectrum-darkest.css" />
     <link rel="stylesheet" href="/spectrum/spectrum-flexbox-grid.css" />
-    <link rel="stylesheet" href="/homepage.css" />
-    <link rel="stylesheet" href="/topnav.css" />
-    <link rel="stylesheet" href="/footer.css" />
+    <link rel="stylesheet" href="/global/topnav.css" />
+    <link rel="stylesheet" href="/global/footer.css" />
+    <link rel="stylesheet" href="/pages/homepage.css" />
     <link rel="stylesheet" href="https://use.typekit.net/ehj8kyw.css">
     <script src="/spectrum/icons/loadIcons.js" type="text/javascript"></script>
     <title>${content.title}</title>
