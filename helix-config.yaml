@@ -50,6 +50,13 @@ strains:
     content: https://github.com/AdobeDocs/starter-docs.git#master
     directoryIndex: Overview.html
     package: developer-adobe-com/92ba136b51d2660b3ba30cfea77dd6e9156d9d98
+    # TODO: Update this config to point to AdobeDocs
+  - name: contributor-docs-helixdemo
+    <<: *basestrain
+    url: https://adobedevsite.helix-demo.xyz/contributor/docs
+    content: https://github.com/AdobeDocs/contributor.en.git#master
+    directoryIndex: help/introduction.html
+    package: developer-adobe-com/23579db521fb2252749ab30d4ed43bfe29176c82
   - name: helix-demo
     <<: *basestrain
     url: https://adobedevsite.helix-demo.xyz/
