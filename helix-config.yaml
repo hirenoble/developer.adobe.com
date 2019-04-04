@@ -12,9 +12,9 @@ version: 1
 definitions:
   defaults:
     # Run default content from github repo
-    # - &defaultRepo https://github.com/adobe/developer.adobe.com.git#master
+    - &defaultRepo https://github.com/adobe/developer.adobe.com.git#master
     # Run default content from this repo locally
-    - &defaultRepo "http://localhost/local/default.git"
+    # - &defaultRepo "http://localhost/local/default.git"
   strains:
     base:
       &basestrain
