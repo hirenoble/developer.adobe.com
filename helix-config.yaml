@@ -54,8 +54,8 @@ strains:
   - name: contributor-docs-helixdemo
     <<: *basestrain
     url: https://adobedevsite.helix-demo.xyz/contributor/docs
-    content: https://github.com/AdobeDocs/contributor.en.git#master
-    directoryIndex: help/introduction.html
+    content: https://github.com/AdobeDocs/contributor.en.git/help#master
+    directoryIndex: introduction.html
     package: developer-adobe-com/23579db521fb2252749ab30d4ed43bfe29176c82
   - name: helix-demo
     <<: *basestrain
