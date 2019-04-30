@@ -52,6 +52,9 @@ strains:
   - name: staging
     <<: *proxystrain
     url: https://adobedevsite.helix-demo.xyz/
+  - name: support-staging
+    origin: https://adobedocs.github.io/developer-support/
+    url: https://adobedevsite.helix-demo.xyz/support
 
   # === PRODUCTION URLS FOLLOW ===
   - name: launch-docs-production
@@ -75,3 +78,6 @@ strains:
   - name: production
     <<: *proxystrain
     url: https://developer.adobe.com/
+  - name: support-production
+    origin: https://adobedocs.github.io/developer-support/
+    url: https://developer.adobe.com/support
