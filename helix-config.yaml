@@ -75,3 +75,6 @@ strains:
   - name: production
     <<: *proxystrain
     url: https://developer.adobe.com/
+  - name: support
+    origin: https://adobedocs.github.io/developer-support/
+    url: https://developer.adobe.com/support
