@@ -32,4 +32,10 @@ describe('helix site smoke tests', function suite() {
     const contentsDisplayed = await articleContents.isExisting();
     assert(contentsDisplayed, 'content container does not exist!');
   });
+  it('should load the central developer support page', async () => {
+    await browser.url('/support');
+
+    const title = await browser.getTitle();
+    assert.equal(title, 'Developer Support');
+  });
 });
